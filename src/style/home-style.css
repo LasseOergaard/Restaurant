@@ -1,0 +1,104 @@
+.home-body {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #e2e8f0;
+  top: 6px;
+  right: 60%;
+  bottom: 6px;
+  left: 6px;
+  margin-right: 6px;
+  border: px solid #1e293b;
+  padding: 180px 5% 10px 5%;
+  border-radius: 4px;
+  gap:30px ;
+}
+
+.home-body__title {
+  font-size: 20px;
+  color: #6b7280;
+}
+
+.home-body__description {
+  font-size: 40px;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.home-body__discover {
+  margin-top: 48px;
+  width: 180px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #0f172a;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 550;
+  border-left: 2px solid #0f172a;
+  border-right: 2px solid #0f172a;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.home-body__discover:hover  {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+.home-body__images {
+  position: absolute;
+  top: 84px;
+  margin-top: 6px;
+  margin-right: 6px;
+  left: 40%;
+  right: 0;
+  bottom: 6px;
+  background-color: green;
+  background: url("../images/foods.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: right;
+  gap: 6px;
+}
+
+
+.home-body__images-rightbutton, .home-body__images-leftbutton {
+  height: 36px;
+  width: 36px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 6px;
+}
+
+
+.home-body__images-rightbutton {
+  background-color: #0f172a;
+  color: #ffffff;
+  margin-right: 6px;
+ 
+}
+.home-body__images-leftbutton {
+  color: #0f172a;
+  background-color: #ffffff;
+}
+
+.home-body__images-rightbutton:hover {
+  background-color: #1f2d4f;
+  color: #ffffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ 
+}
+.home-body__images-leftbutton:hover {
+  color: #0f172a;
+  background-color: #f4f4f4;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+

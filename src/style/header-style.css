@@ -1,0 +1,48 @@
+.header {
+  z-index: 10 ;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 40%;
+  right: 0;
+  height: 84px;
+  background-color: #1e293b;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  padding-right: 5%;
+}
+
+.header button {
+  background: none;
+  border: none;
+  border-left: 1px solid #e2e8f0;
+  border-right: 1px solid #e2e8f0;
+  color: #e2e8f0;
+  width: 100px;
+  height: 42px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.1s;
+  position: relative;
+}
+
+.header button:hover > .dot  {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #e2e8f0;
+  border-radius: 50%;
+  visibility: hidden;
+  position: absolute;
+  bottom: 3px;
+  right: 48%;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.15s;
+}
+
